@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Dosis & display = swap" rel = "hoja de estilo ">
+    <title>Pet-XYZ</title>
+</head>
+<body>
+  
+<div class="container">
+    <div class="row">
+        <h2 class="Agendar">AGENDAR CITA</h2>
+        <div>
+        <label class="label">Tu Nombre</label>
+       <input type="text" id="dueno" class="form-control" />
+       </div> 
+       <div>
+        <label class="label">Teléfono</label>
+        <input type="text" id="telefono" class="form-control" />
+        </div>
+        <div>
+        <label class="label">Dirección</label>
+        <input type="text" id="direccion" class="form-control" />
+        </div>
+       <div>
+        <label class="label">Nombre de tu Mascota</label>
+        <input type="text" id="mascotaa" class="form-control" />
+        </div>
+        <div>
+        <label class="label">Tipo de Mascota</label>
+          <select name="" id="tipoMascotas" class="form-control">
+            <option value="">Seleccione</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="conejo">Conejo</option>
+          </select>
+        </div>
+            <div>
+                <label class="label">Motivo de la Consulta</label>
+                <textarea id="motivoConsulta" rows="5" class="form-control txt-are"></textarea>
+          </div>
+          <div class="row my-5">
+            <div class="col-12 text-center">
+              <button type="button" id="botton" class="btn btn-danger">
+                Agregar
+              </button>
+            </div>
+          </div>
+
+          <h2 class="text-center">DATOS INGRESADOS</h2>
+            
+          <div id="datos">
+              <div id="mensaje"> </div>
+          </div>
+    </div>
+            
+        
+</div>
+
+
+
+
+    <script src="assets/js/script.js" > </script>
+</body>
+</html>
